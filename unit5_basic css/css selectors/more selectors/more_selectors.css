@@ -1,0 +1,51 @@
+/* elements */
+body {
+  background: rgb(166, 245, 170);
+}
+
+/* classes */
+.hello {
+
+}
+
+/* id */
+
+#name {
+
+}
+
+/* star (selects everythign on the page) */
+* {
+  border: 1px solid lightslategray;
+}
+
+/* descendant selectors */
+/*  this will select only elements that are descendants of other elements */
+
+ul li a { /* selects all the <a>'s under <li> that are inside a <ul> */
+  color: rgb(67, 95, 11);
+}
+
+/* adjacent selectors */
+/* let's use select elements that are siblings, or that come after something. */
+
+h4 + ul { /* all <ul>s that come after an <h4> */
+  border: 4px solid greenyellow;
+}
+
+/* attribute selectors */
+/*  a way to select elements based off of any attribute (like href) */
+
+a[href="https://www.google.com"] { /* this selects all 'a' elements with href google.com */
+  background: burlywood;
+}
+
+/* nth of type */
+/*    takes a number and then selects every piece from that number, like every fifth paragraph etc.
+
+can also choose (even) to choose every other element. 
+*/
+
+li:nth-of-type(3) { /* select every third 'li' */
+  background: fuchsia;
+}

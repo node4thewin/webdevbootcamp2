@@ -1,0 +1,14 @@
+/* WHERE DO WE PUT CSS? */
+
+/* STYLE TAGS */
+
+/* 
+
+We can put CSS inside HTML...but we don't want to do that since it can be very busy. 
+
+We want to add a link to a CSS file, using the <link> tag...
+
+<link rel="stylesheet" type="text/css" href="app.css">
+
+*/
+

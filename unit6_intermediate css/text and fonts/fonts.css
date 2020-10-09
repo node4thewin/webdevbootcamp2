@@ -1,0 +1,65 @@
+/* font-family */ 
+/*    these are included in CSS, but not all Mac's or PC's */
+p {
+  font-family: Arial;
+}
+
+h1 {
+  font-family: Georgia;
+}
+
+/* font-size */
+/*  there are multiple units for font-size */
+
+body {
+  font-size: 10px;
+}
+
+h1 { /* this shows pixels or px */
+  font-size: 5.0em;
+}
+
+p {
+  font-size: 2.0em
+}
+
+span { /*this is an example of using em for "relative" font-size, this means the font is 1.5 times larger than parent font */
+  font-size: 1.5em;
+}
+
+/* font-weight */
+/*  - essentially show adds or diminishes the thickness or boldness of the font */
+/*  - you can sometimes choose a number between 100 - 800 as well */
+p {
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+span {
+  font-weight: 100;
+}
+
+/* line-height */
+/*   - affects the spacing between lines for a given element
+     - usually it is between 1.5-2 but you can go greater or lesser if desired.
+*/
+p {
+  line-height: 2.0;
+}
+
+/* font-align */
+/*   - this aligns the text to the left, center, right etc. */
+
+h1 {
+  text-align: center;
+}
+
+/* text-decoration */
+/*   - multiple choices, you can see them all on mozilla dev website */
+
+span {
+  text-decoration: underline;
+}

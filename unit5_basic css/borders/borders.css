@@ -1,0 +1,33 @@
+/* Intro to BORDERS */
+
+/* 
+We want to add the following:
+
+width
+color
+style
+
+REMEMBER NONE OF THIS WORKS WITHOUT ALL THREE...
+*/
+
+h1 {
+  color: rgba(0,200,100,0.8);
+  text-align: center;
+  /* border color */
+  /* border-color: aliceblue; */
+  /* can't see anything without border-width */
+  /* border-width: 5px; */
+  /* still can't see anything without border-style */
+  /* border-style: solid; */
+  /* for efficient purposes you can add them all under 'border:' */
+  border: 5px, solid, aliceblue;
+}
+
+h4 {
+  background: rgb(255,100,80);
+}
+
+body {
+  background: pink;
+}
+

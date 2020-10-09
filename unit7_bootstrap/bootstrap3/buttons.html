@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- you can use the 'min' file if you want it to load faster, make sure to bring bootstrap.css into the right directory first then link it -->
+  <link rel="stylesheet" href="bootstrap.css">
+  <style>
+    /* this customized the danger button, which you can do the same in a css file */
+    .btn-danger {
+      background: pink;
+    }
+  </style>
+  <title>buttons</title>
+</head>
+<body>
+  <h1>bootstrap basics (3.3.7)</h1>
+  <h2>button basics</h2>
+  <button class="btn btn-success btn-xs">click me</button>
+  <a href="http://www.getbootstrap.com/docs/3.3/" class="btn btn-info btn-lg">bootstrap docs</a>
+  <!-- this shows the danger feature and above shows how to override/customize it -->
+  <button class="btn btn-danger btn-xs">click me</button>
+  <!-- we can also make a button seem 'active' when it is clicked, see below -->
+  <button class="btn btn-success btn-xs active">click me</button>
+  <!-- below shows the 'disabled' feature, making a button seem and also actually unclickable (if you hover over it) -->
+  <button class="btn btn-success btn-xs" disabled="disabled">click me</button>
+
+</body>
+</html>

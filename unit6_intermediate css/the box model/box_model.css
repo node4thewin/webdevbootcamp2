@@ -1,0 +1,32 @@
+/* this is to play around with the box model */
+
+body {
+  font-size: 30px;
+  background-color: bisque;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+p {
+/* content - width and margin */
+/*   - can use pixels and also %, it's relative to the parent element */
+width: 50%; /*this is also dynamic*/
+
+/* border */
+
+border: 2px solid whitesmoke;
+
+/* padding */
+/*   - you can see this with the inspect function easier, can also put padding on certain sides */
+padding-left: 10px;
+
+/* margin */
+/*   - space on the outside of the border, similar to padding */
+/*   - can also to top, right, bottom, left in that order on one single */
+/* margin: 10px 30px 100px 40px; */
+/* can also set margin-auto, which will auto the left and right margins...centering it. */
+margin: 10 auto; /*this sets top and bottom to 10 and left right to auto */
+}

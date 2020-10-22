@@ -15,3 +15,16 @@
 # Nice to Have
 
 1. VSCode Formatting On Save
+
+# Unit Goals
+
+- Define HTML5
+- Write semantic markup
+- Work with entity codes
+- Understnad inline vs. block
+- Utilize Elements like...
+  - div & span
+  - sup & sub
+  - em & strong
+  - header & footer
+  - main & nav

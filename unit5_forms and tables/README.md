@@ -17,3 +17,13 @@
 # Nice to Have
 
 1. Table Colspan and Rowspan
+
+# Unit Goals
+
+- Create well-formatted HTML Tables
+- Understand when and when not to use tables
+- Explain the role of the form element
+- Utilize a variety of form controls
+- Define complete HTML forms
+- Add HTML5 Form Validations
+- Ensure accessibility of our forms

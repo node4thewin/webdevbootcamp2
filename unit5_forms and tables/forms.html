@@ -3,4 +3,52 @@
   - The <form> element itself is a shell or container that doesn't have any visual impact.
   - We then fill the form with a collection of inputs, checkboxes, buttons, etc.
   
+  <form>
+    - the form element "represents a document section containing interactive controls for submitting information."
+    - The 'action' attribute specifies WHERE the form data should be sent, essentially this is the server you want to send the piece of information to.
+    - The method attribute specifies which HTTP method should be used (don't worry about this for now)
+
+  <input>
+    - most common 'form control'
+    - the input element is used to create a variety of different form controls
+    - there are 20+ possible types of inputs, ranging from date pickers to checkboxes
+    - the 'type' attribute is where the magic happens. changing 'type' dramatically alters the input's behavior and appearance.
+  
 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>forms demo</title>
+  <style>
+    label {
+      display: block;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>forms demo</h1>
+
+  <form action=""></form>
+  <label for="name">name (4 to 8 characters):</label>
+  <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" placeholder="name">
+
+  <form action="/tacos">
+    <!-- placeholder="" is very important for filling in the form when there is no text-->
+    <input type="text"> <!-- sends normal text characters to certain place. -->
+    <input type="password" placeholder="password"> <!-- this is related to passwords and has special properties-->
+    <input type="color"> <!-- this brings up a color picker-->
+    <input type="date"> <!-- a control for entering a date and time, with no time zone, has a date picker -->
+    <input type="checkbox"> <!-- a check box allowing single values to be selected/deselected -->
+    <input type="email" placeholder="johndoe@email.com">
+    <input type="file"> <!-- a control that let's the user select a file. use the 'accept' attribute to define the types of files that the control can select -->
+    <input type="reset"> <!-- but that resets the contents of the form to default values, NOT RECOMMENDED -->
+    <input type="search"> <!-- single-line text field for entering search strings-->
+    <input type="submit"> <!-- a button that submits the form -->
+  </form>
+</body>
+
+</html>

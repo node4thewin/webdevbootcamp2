@@ -25,6 +25,11 @@
     label {
       display: block;
     }
+
+    input {
+      display: block;
+      margin: 1em;
+    }
   </style>
 
 </head>
@@ -36,8 +41,11 @@
   <label for="name">name (4 to 8 characters):</label>
   <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" placeholder="name">
 
+
+  <h3>common inputs:</h3>
   <form action="/tacos">
     <!-- placeholder="" is very important for filling in the form when there is no text-->
+    <h4>type="text"</h4>
     <input type="text"> <!-- sends normal text characters to certain place. -->
     <input type="password" placeholder="password"> <!-- this is related to passwords and has special properties-->
     <input type="color"> <!-- this brings up a color picker-->

@@ -52,25 +52,48 @@
 
   <h3>example from web developer bootcamp</h3>
 
+  <!-- 
+    NAME 
+     - <name> is important to explaining where to send it and classify it. when the data is sent it gives a label to the value that's sent to the server
+  -->
+
   <form action="/lolabola">
     <p>  
       <label for="username">enter a username:</label>
-      <input id="username" type="text" placeholder="username">
+      <input id="username" type="text" placeholder="username" name="color">
     </p>
     <p>
       <label for="password">enter password:</label>
-      <input id="password" type="password" placeholder="password">
+      <input id="password" type="password" placeholder="password" name="password">
     </p>
     <p>
       <label for="color">color picker:</label>
-      <input id="color" type="color">
+      <input id="color" type="color" name="color">
     </p>
     <p>
-      <input type="number" placeholder="enter a number">
+      <input type="number" placeholder="enter a number" name="number">
     </p>
+    <button>submit</button>
   </form>
-
-
+  <hr>
+  <!-- how to hijack a reddit search
+          -look at the URL
+   -->
+  <h4>hacking into a reddit search</h4>
+  <form action="https://www.reddit.com/search/">
+    <input type="text" name="q">
+    <button>search reddit</button>
+  </form>
+  <h4>hacking into a google search</h4>
+  <form action="https://www.google.com/search">
+    <input type="text" name="q">
+    <button>search google</button>
+  </form>
+  <h4>hacking into a youtube search</h4>
+  <form action="https://www.youtube.com/results">
+    <input type="text" name="search_query">
+    <button>search youtube</button>
+  </form>
 </body>
 
 </html>

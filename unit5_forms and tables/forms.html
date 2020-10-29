@@ -21,20 +21,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>forms demo</title>
-  <style>
-
-    input {
-      display: block;
-      margin: 1em;
-    }
-    
-    .checkbox {
-      display: flex;
-      justify-content: space-between;
-      width: 10%;
-      margin: .5rem;
-    }
-  </style>
 
 </head>
 
@@ -49,14 +35,13 @@
   <h3>common inputs:</h3>
   <form action="/tacos">
     <!-- placeholder="" is very important for filling in the form when there is no text-->
-    <h4>type="text"</h4>
     <input type="text" placeholder="username"> <!-- sends normal text characters to certain place. -->
     <input type="password" placeholder="password"> <!-- this is related to passwords and has special properties-->
     <input type="color"> <!-- this brings up a color picker-->
     <input type="date"> <!-- a control for entering a date and time, with no time zone, has a date picker -->
     <div class="checkbox">
-      <label for="checkbox">checkbox:</label>
-      <input type="checkbox" name="checkbox" id="checkbox"> <!-- a check box allowing single values to be selected/deselected -->
+      <label for="example">checkbox:</label>
+      <input type="checkbox" name="example" id="example"> <!-- a check box allowing single values to be selected/deselected -->
     </div>
       <input type="email" placeholder="johndoe@email.com">
     <input type="file"> <!-- a control that let's the user select a file. use the 'accept' attribute to define the types of files that the control can select -->
@@ -64,6 +49,23 @@
     <input type="search"> <!-- single-line text field for entering search strings-->
     <input type="submit"> <!-- a button that submits the form -->
   </form>
+
+  <h3>example from web developer bootcamp</h3>
+
+  <form action="/lolabola">
+    <p>  
+      <label for="username">enter a username:</label>
+      <input id="username" type="text" placeholder="username">
+    </p>
+    <p>
+      <label for="password">enter password:</label>
+      <input id="password" type="password" placeholder="password">
+    </p>
+      <input type="color">
+      <input type="number" placeholder="enter a number">
+  </form>
+
+
 </body>
 
 </html>

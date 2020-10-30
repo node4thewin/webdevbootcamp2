@@ -24,11 +24,11 @@
     <button>submit</button>
   </form>
 
-  <h3>radio buttons</h3> <!-- these are like multiple choice questions -->
+  <h3>radio button</h3> <!-- these are like multiple choice questions -->
   <form action="/love">
     <p class="love">
       who do i love most in the world?
-      <div>
+      <div> <!-- whatever we have in <value> is what will be sent through to the server or database -->
         <input type="radio" name="thing" id="otis" value="otis">
         <label for="otis">otis</label>
       </div>
@@ -41,6 +41,23 @@
         <label for="callie">callie</label>
       </div>
     </p>
+    <button>submit</button>
   </form>
+
+  <h3>select button</h3>
+  <form action="/entree">
+    <p>  
+      <label for="meal">please select an entree:</label>
+      <select name="meal" id="meal">
+        <option value="">--choose here--</option>
+        <option value="steak">steak</option>
+        <option value="chicken">chicken</option>
+        <option value="salmon">salmon</option>
+        <option value="salad">salad</option>
+      </select>
+    </p>
+      <button>submit</button>
+  </form>
+
 </body>
 </html>

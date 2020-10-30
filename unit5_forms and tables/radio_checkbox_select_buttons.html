@@ -8,6 +8,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>more inputs...</title>
+  <style>
+    .love {
+      margin: .5rem;
+    }
+  </style>
 </head>
 <body>
   <h2>more inputs...</h2>
@@ -16,6 +21,26 @@
   <form action="/birds">
     <input type="checkbox" name="agree_tos" id="agree">
     <label for="agree">i agree to everything</label>
+    <button>submit</button>
+  </form>
+
+  <h3>radio buttons</h3> <!-- these are like multiple choice questions -->
+  <form action="/love">
+    <p class="love">
+      who do i love most in the world?
+      <div>
+        <input type="radio" name="thing" id="otis" value="otis">
+        <label for="otis">otis</label>
+      </div>
+      <div>
+        <input type="radio" name="thing" id="lola" value="lola">
+        <label for="lola">lola</label>
+      </div>
+      <div>
+        <input type="radio" name="thing" id="callie" value="callie" checked>
+        <label for="callie">callie</label>
+      </div>
+    </p>
   </form>
 </body>
 </html>

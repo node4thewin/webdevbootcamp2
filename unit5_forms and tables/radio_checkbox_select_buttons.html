@@ -9,8 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>more inputs...</title>
   <style>
-    .love {
-      margin: .5rem;
+    option {
+      text-align: center;
     }
   </style>
 </head>
@@ -47,14 +47,16 @@
   <h3>select button</h3>
   <form action="/entree">
     <p>  
-      <label for="meal">please select an entree:</label>
-      <select name="meal" id="meal">
-        <option value="">--choose here--</option>
-        <option value="steak">steak</option>
-        <option value="chicken">chicken</option>
-        <option value="salmon">salmon</option>
-        <option value="salad">salad</option>
-      </select>
+      <div style="center">
+        <label for="meal">please select an entree:</label>
+        <select name="meal" id="meal">
+          <option value="">--choose here--</option>
+          <option value="steak">steak</option>
+          <option value="chicken">chicken</option>
+          <option value="salmon">salmon</option>
+          <option value="salad">salad</option>
+        </select>
+      </div>
     </p>
       <button>submit</button>
   </form>

@@ -16,20 +16,18 @@
     </div>
 
     <p>Select a Race:</p>
-    
-    <div class="radio_distance">
-      <p>
-        <input type="radio" name="5k" id="5k">
-        <label for="5k">Fun Run 5k</label>
-      </p>
-      <p>
-        <input type="radio" name="half" id="half">
-        <label for="half">Half Marathon</label>
-      </p>
-      <p>
-        <input type="radio" name="full" id="full">
-        <label for="full">Full Marathon</label>
-      </p>
+  
+    <div> <!-- we want name="race" because then all of them will go to same directory -->
+      <input type="radio" name="race" id="5k">
+      <label for="5k">Fun Run 5k</label>
+    </div>
+    <div>
+      <input type="radio" name="race" id="half">
+      <label for="half">Half Marathon</label>
+    </div>
+    <div>
+      <input type="radio" name="race" id="full">
+      <label for="full">Full Marathon</label>
     </div>
     <div class="email_password">
       <label for="email">Email</label>
@@ -44,6 +42,7 @@
         <option value="over18">over 18</option>
       </select>
     </div>
+    <button>Register</button>
   </form>
 </body>
 </html>

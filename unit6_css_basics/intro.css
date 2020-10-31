@@ -2,3 +2,11 @@
 h1  {
   color: aquamarine;
 }
+
+.h2 { /* this pairs with a class="" */
+  color: brown;
+}
+
+#h3 { /* this pairs with an id="" */
+  color: blueviolet;
+}

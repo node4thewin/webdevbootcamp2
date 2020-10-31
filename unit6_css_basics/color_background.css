@@ -1,0 +1,18 @@
+h2  {
+  color: teal;
+  background-color: plum;
+}
+
+h3 {
+  color: purple;
+}
+
+button {
+  color: magenta;
+  background-color: cyan;
+}
+
+p {
+  color: olive;
+  background: orange; /* background has a lot more aspects and options to it */
+}

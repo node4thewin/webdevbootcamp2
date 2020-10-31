@@ -1,0 +1,38 @@
+<!-- this mimics the practice exercise on Udemy -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms Practice Exercise</title>
+</head>
+<body>
+  <!-- 
+    1. Username
+      1. Text Input
+      2. Should have placeholder text of 'username'
+      3. Make sure to properly label the input (using id/for attributes)
+    
+    2. Password
+      1. Password Input
+      2. Should have placeholder text of 'password'
+      3. Make sure to properly label the input (using id/for attributes)
+    
+    3. Button
+      1. With the inner text 'Register'
+
+    DONT FORGET TO USE <FORM>!
+  -->
+  <form action="/user">
+    <div class="username">
+      <label for="username">Username</label>
+      <input type="text" placeholder="username" id="username">
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input type="password" placeholder="password" id="password">
+    </div>
+    <button>Register</button>
+  </form>
+</body>
+</html>

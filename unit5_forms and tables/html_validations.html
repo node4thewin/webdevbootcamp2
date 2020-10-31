@@ -1,0 +1,26 @@
+<!-- 
+  HTML VALIDATIONS
+  - There are server-side and client-side validations
+  - This ensures that data is sent over properly, or how the company/site intends
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html validations demo</title>
+</head>
+<body>
+  <h1>html validations demo</h1>
+  <form action="/dummy">
+    <label for="first">enter first name</label>
+    <input type="text" name="first" id="first" required> <!-- this form will not submit unless the input is completed (required) -->
+    <p>
+      <label for="username">username</label>
+      <input type="text" name="username" id="username" required>
+    </p>
+    <button>submit</button> <!-- this form will now not submit unless first name and username are filled out. anything in the form that's required must be completed. -->
+  </form>
+</body>
+</html>

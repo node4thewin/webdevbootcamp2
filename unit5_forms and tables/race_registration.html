@@ -31,15 +31,17 @@
     </div>
     <div class="email_password">
       <label for="email">Email</label>
-      <input type="email" id="email" placeholder="email@email.com">
+      <input type="email" id="email" placeholder="email@email.com" required>
       <label for="password">Password</label>
-      <input type="password" id="password" placeholder="password">
+      <input type="password" id="password" placeholder="password" required>
     </div>
     <div class="age_select">
       <label for="age_group">Select Age Group:</label>
       <select name="age_group" id="age_group">
         <option value="under18">under 18</option>
-        <option value="over18">over 18</option>
+        <option value="youngadult">18-30</option>
+        <option value="adult">30-50</option>
+        <option value="senior">over 50</option>
       </select>
     </div>
     <button>Register</button>

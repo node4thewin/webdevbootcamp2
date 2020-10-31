@@ -13,14 +13,20 @@
 </head>
 <body>
   <h1>html validations demo</h1>
+  <h4>if an input below is not complete it should prompt you to complete it</h4>
   <form action="/dummy">
     <label for="first">enter first name</label>
-    <input type="text" name="first" id="first" required> <!-- this form will not submit unless the input is completed (required) -->
+    <input type="text" name="first" id="first" placeholder="first name" required> <!-- this form will not submit unless the input is completed (required) -->
     <p>
       <label for="username">username</label>
-      <input type="text" name="username" id="username" required>
+      <input type="text" name="username" id="username" placeholder="username" required>
+    </p>
+    <p>
+      <label for="email">email</label>
+      <input type="email" name="email" id="email" placeholder="email@email.com" required>
     </p>
     <button>submit</button> <!-- this form will now not submit unless first name and username are filled out. anything in the form that's required must be completed. -->
   </form>
+  <!-- REGULAR EXPRESSIONS are going to be used for passwords, they are complicated but they will come up later. -->
 </body>
 </html>

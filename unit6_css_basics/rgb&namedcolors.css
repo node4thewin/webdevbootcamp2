@@ -1,0 +1,31 @@
+/* 
+HTML Color Codes 
+
+ 1. named colors
+ 2. color codes
+ 3. hex color codes
+ 4. rgb
+ 5. HSL values
+
+*/
+
+td {
+  text-align: center;
+  border: 1px solid blue;
+}
+
+#darkkhaki {
+  color: darkkhaki;
+}
+
+#gold {
+  color: gold;
+}
+
+#mediumorchid {
+  color: mediumorchid;
+}
+
+#tomato {
+  color: tomato
+}

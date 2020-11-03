@@ -1,3 +1,14 @@
+/* 
+CSS Color Codes 
+
+ 1. named colors
+ 2. color codes
+ 3. hex color codes
+ 4. rgb (255,255,255)
+ 5. HSL values
+
+*/
+
 #gold {
   color: gold;
 }
@@ -8,4 +19,20 @@
 
 #olivedrab {
   color: olivedrab
+}
+
+#red {
+  color: rgb(255,0,0);
+}
+
+#green {
+  color: rgb(0,255,0);
+}
+
+#blue {
+  color: rgb(0,0,255);
+}
+
+#black {
+  color: rgb(0,0,0);
 }

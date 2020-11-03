@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 
   h1s
     - green text
@@ -31,3 +32,36 @@ button {
   color: red;
   background-color: pink;
 }
+=======
+/*
+  Style according to these rules:
+    h1's
+      - green text
+    h2's
+      - magenta text
+    paragraphs
+      - white text
+      - black background color
+    buttons
+      - red text
+      - pink background color
+ */
+
+ h1 {
+   color: green;
+ }
+
+ h2 {
+   color: magenta;
+ }
+
+ p {
+   color: white;
+   background-color: black;
+ }
+
+ button {
+   color: red;
+   background-color: pink;
+ }
+>>>>>>> f50613b298c770e46a68bfdb2c46ee72e353e9bc

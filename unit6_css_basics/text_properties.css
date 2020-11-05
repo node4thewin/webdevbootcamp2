@@ -12,10 +12,15 @@ h1 {
   text-align: center;
   font-weight: 700; /* font weight at "normal" would remove the bold aspect that h1s have */
   text-decoration: #f7aa2d wavy overline;
+  letter-spacing: 15px;
 }
 
 /* HOW TO REMOTE UNDERLINE FROM URL's or a default underline */
 
 a {
   text-decoration: none;
+}
+
+p {
+  line-height: 2.5;
 }

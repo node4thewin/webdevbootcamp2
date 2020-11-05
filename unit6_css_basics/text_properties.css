@@ -1,4 +1,21 @@
+/* 
+INTRO TO TEXT PROPERTIES...more to follow 
+
+1. text-align
+2. font-weight
+3. text-decoration
+4. line-height
+5. letter-spacing 
+
+*/
 h1 {
   text-align: center;
   font-weight: 700; /* font weight at "normal" would remove the bold aspect that h1s have */
+  text-decoration: #f7aa2d wavy overline;
+}
+
+/* HOW TO REMOTE UNDERLINE FROM URL's or a default underline */
+
+a {
+  text-decoration: none;
 }

@@ -1,0 +1,4 @@
+h1 {
+  text-align: center;
+  font-weight: 700; /* font weight at "normal" would remove the bold aspect that h1s have */
+}

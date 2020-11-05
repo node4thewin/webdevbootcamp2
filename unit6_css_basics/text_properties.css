@@ -6,21 +6,42 @@ INTRO TO TEXT PROPERTIES...more to follow
 3. text-decoration
 4. line-height
 5. letter-spacing 
+6. font-size
+  a. there are a number of values
+  b. absolute-size values (xx-small, x-small, xxx-large)
+  c. relative-size values (smaller, larger)
+  d. length values (10px, 0.8em)
+  e. percentage values (80%)
+  f. global values (inherit, initial, unset)
 
+  RELATIVE VALUES
+    (em, rem, vh, vw, %, and more)
+  ABSOLUTE VALUES
+    (px, pt, cm, in, mm)
+7. font-family
+  - make sure that they are compatible with Windows and Mac
+  - use website cssfontstack.com to check
 */
 h1 {
   text-align: center;
   font-weight: 700; /* font weight at "normal" would remove the bold aspect that h1s have */
   text-decoration: #f7aa2d wavy overline;
   letter-spacing: 15px;
+  font-size: 75px;
+  /* using the , you can have a backup choice for font-family */
+  font-family: Segoe UI, Futura;
 }
 
-/* HOW TO REMOTE UNDERLINE FROM URL's or a default underline */
-
+/* HOW TO REMOVE UNDERLINE FROM URL's or a default underline */
 a {
   text-decoration: none;
+  font-size: 200%;
 }
 
 p {
   line-height: 2.5;
+}
+
+body {
+  font-family: Segoe UI, Futura;
 }

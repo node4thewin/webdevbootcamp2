@@ -21,6 +21,17 @@ body {
   color: #e63946;
 }
 
+/* SELECTOR LIST */
+/* Select all h1's and h2's */
+h1, h2 {
+  color: #1d3557;
+}
+
+/* DESCENDANT SELECTOR */
+/* Select all <element> that are nested inside another <element> */
+
+
+
 span {
   color: #457b9d;
 }
@@ -40,8 +51,6 @@ button {
   background-color: #a8dadc;
 }
 
-/* SELECTOR LIST */
-/* Select all h1's and h2's */
-h1, h2 {
-  color: #1d3557;
+span a {
+  color: #a8dadc;
 }

@@ -5,3 +5,16 @@ Basic Selectors Practice
   - give the element with the id clear a red background and white text
 
 */
+
+li {
+  color: blue;
+}
+
+.done {
+  color: grey;
+}
+
+#clear {
+  background-color: red;
+  color: white;
+}

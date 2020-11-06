@@ -1,0 +1,15 @@
+/* 
+ SELECTORS
+*/
+
+/* UNIVERSAL SELECTOR (selects everything) */
+
+* {
+  background-color: #AAB7B8;
+}
+
+/* SELECTOR LIST */
+/* Select all h1's and h2's */
+h1, h2 {
+  color: #283747;
+}

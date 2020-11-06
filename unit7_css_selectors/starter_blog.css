@@ -1,0 +1,25 @@
+* {/*UNIVERSAL SELECTOR*/
+  background-color: #AAB7B8;
+}
+
+body { /* ELEMENT SELECTOR */
+  font-family: 'Times New Roman', Times, serif;
+} /* this affects everything inside a given element */
+
+.nav {
+  float: left;
+}
+
+.post {
+  float: none;
+}
+
+button {
+  font-size: 15px;
+}
+
+/* SELECTOR LIST */
+/* Select all h1's and h2's */
+h1, h2 {
+  color: #283747;
+}

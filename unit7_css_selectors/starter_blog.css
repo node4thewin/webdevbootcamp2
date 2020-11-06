@@ -1,13 +1,34 @@
 * {/*UNIVERSAL SELECTOR*/
-  background-color: #AAB7B8;
+  background-color: #f1faee;
 }
 
-body { /* ELEMENT SELECTOR */
+/* ELEMENT SELECTOR */
+/* this affects everything inside a given element */
+body {
   font-family: 'Times New Roman', Times, serif;
-} /* this affects everything inside a given element */
+}
 
+/* CLASS SELECTOR */
+/* can be chosen for elements on a page, doesnt have to be the same type of element */
 .nav {
   float: left;
+}
+
+/* ID SELECTOR */
+/* only can be used once for one element or thing   */
+#signup {
+  background-color: #1d3557;
+  color: #e63946;
+}
+
+span {
+  color: #457b9d;
+}
+
+.tag {
+  background-color: #e63946;
+  color: #f1faee;
+  font-size: 16px;
 }
 
 .post {
@@ -16,10 +37,11 @@ body { /* ELEMENT SELECTOR */
 
 button {
   font-size: 15px;
+  background-color: #a8dadc;
 }
 
 /* SELECTOR LIST */
 /* Select all h1's and h2's */
 h1, h2 {
-  color: #283747;
+  color: #1d3557;
 }

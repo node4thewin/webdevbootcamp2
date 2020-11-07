@@ -29,11 +29,9 @@ h1, h2 {
 
 /* DESCENDANT SELECTOR */
 /* Select all <element> that are nested inside another <element> */
-
 footer a {
   color: #e63946;
 }
-
 
 span {
   color: #457b9d;
@@ -47,6 +45,10 @@ span {
 
 .post {
   float: none;
+}
+
+.post a {
+  color: #457b9d;
 }
 
 button {

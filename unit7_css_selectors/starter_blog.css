@@ -8,10 +8,29 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+span {
+  color: #457b9d;
+}
+
+button {
+  font-size: 15px;
+  background-color: #a8dadc;
+}
+
 /* CLASS SELECTOR */
 /* can be chosen for elements on a page, doesnt have to be the same type of element */
 .nav {
   float: left;
+}
+
+.tag {
+  background-color: #e63946;
+  color: #f1faee;
+  font-size: 16px;
+}
+
+.post {
+  float: none;
 }
 
 /* ID SELECTOR */
@@ -33,25 +52,34 @@ footer a {
   color: #e63946;
 }
 
-span {
-  color: #457b9d;
-}
-
-.tag {
-  background-color: #e63946;
-  color: #f1faee;
-  font-size: 16px;
-}
-
-.post {
-  float: none;
-}
-
 .post a {
   color: #457b9d;
 }
 
-button {
-  font-size: 15px;
-  background-color: #a8dadc;
+/* ADJACENT SELECTORS */
+/* Select only the paragraphs that are immediately preceded by a certain <element> */
+input + button {
+  background-color: #e63946;
 }
+
+h2 + button {
+  font-size: 20px;
+}
+
+/* DIRECT CHILD SELECTORS */
+/* Select only the <elements>'s (a) that are direct children of a <element> (footer) */
+footer > a {
+  color: #457b9d;
+}
+
+form > label {
+  color: #1d3557;
+  font-weight: bold;
+}
+
+/* ATTRIBUTE SELECTOR */
+/* Select all input elements where the type attribute is "password" */
+input[type="text"] {
+  color: #e63946;
+}
+

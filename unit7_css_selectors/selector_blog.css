@@ -29,7 +29,7 @@ button {
   font-size: 16px;
 }
 
-.post {
+section.post { /* selects only 'post' classes in <section> elements */
   float: none;
 }
 
@@ -83,3 +83,6 @@ input[type="text"] {
   color: #e63946;
 }
 
+a[href*="google"] {
+  font-size: 30px;
+}

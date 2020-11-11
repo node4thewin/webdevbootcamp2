@@ -40,6 +40,10 @@ section.post { /* selects only 'post' classes in <section> elements */
   color: #e63946;
 }
 
+#license:hover {
+  color: #e63946;
+}
+
 /* SELECTOR LIST */
 /* Select all h1's and h2's */
 h1, h2 {
@@ -85,4 +89,16 @@ input[type="text"] {
 
 a[href*="google"] {
   font-size: 30px;
+}
+
+/* PSEUDO CLASSES */
+/* keyword added to a selector that specifies a special state of the selected elements */
+
+/* :hover examples */
+a:hover {
+  color: #e63946;
+}
+
+footer nav a:hover {
+  color: #457b9d;
 }

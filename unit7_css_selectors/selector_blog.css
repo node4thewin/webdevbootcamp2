@@ -93,6 +93,17 @@ a[href*="google"] {
 
 /* PSEUDO CLASSES */
 /* keyword added to a selector that specifies a special state of the selected elements */
+/* 
+  TYPES:
+    :active
+    :checked
+    :first
+    :first-child
+    :hover
+    :not()
+    :nth-child()
+    :nth-of-type()
+*/
 
 /* :hover examples */
 a:hover {
@@ -101,4 +112,16 @@ a:hover {
 
 footer nav a:hover {
   color: #457b9d;
+}
+
+.post button:hover {
+  background-color: #e63946;
+  color: #f1faee;
+}
+
+/* :active example */
+/* represents something that is currently being activated */
+
+button:active {
+  background-color: #1d3557;
 }

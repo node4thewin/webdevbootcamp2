@@ -1,6 +1,7 @@
-* {/*UNIVERSAL SELECTOR*/
-  background-color: #f1faee;
-}
+/*UNIVERSAL SELECTOR
+  * {
+    background-color: #f1faee;
+} */
 
 /* ELEMENT SELECTOR */
 /* this affects everything inside a given element */
@@ -125,3 +126,22 @@ footer nav a:hover {
 button:active {
   background-color: #1d3557;
 }
+
+/* :nth-of-type() example */
+/* selects every *number or instance of something, like every other below */
+
+.post:nth-of-type(2n) {
+  background-color: #f1faee;
+}
+
+/* PSEUDO ELEMENTS */
+/* keyword added to a selector that lets you style a particular part of selected element(s) */
+/* 
+  TYPES
+    ::after
+    ::before
+    ::first-letter
+    ::first-line
+    ::selection
+ */
+

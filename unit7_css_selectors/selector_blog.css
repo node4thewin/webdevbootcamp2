@@ -168,3 +168,7 @@ p::selection {
   background-color: #1d3557;
   color: #e63946;
 }
+
+/* THE CASCADE */
+/* the order your styles are declared in and linked to matters! */
+

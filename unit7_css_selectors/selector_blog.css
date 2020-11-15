@@ -157,7 +157,14 @@ h2::first-letter {
   font-size: 2em;
   color: #e63946;
 }
-
+/* ::first-line */
 p::first-line {
   color: #457b9d;
+}
+
+/* ::selection */
+/* when you select the text */
+p::selection {
+  background-color: #1d3557;
+  color: #e63946;
 }

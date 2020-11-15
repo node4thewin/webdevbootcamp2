@@ -18,6 +18,10 @@ button {
   background-color: #a8dadc;
 }
 
+p {
+  color: #1d3557;
+}
+
 /* CLASS SELECTOR */
 /* can be chosen for elements on a page, doesnt have to be the same type of element */
 .nav {
@@ -145,3 +149,15 @@ button:active {
     ::selection
  */
 
+/* the flask means they are experimental and should not be used */
+
+/* ::first-letter */
+
+h2::first-letter {
+  font-size: 2em;
+  color: #e63946;
+}
+
+p::first-line {
+  color: #457b9d;
+}

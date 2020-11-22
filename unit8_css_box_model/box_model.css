@@ -43,6 +43,7 @@ div {
   border-left-width: 10px;
   border-left-style: dashed;
   border-radius: 50%;
+  padding-right: 50px;
 }
 #three {
   background-color: #5e60ce;
@@ -54,3 +55,14 @@ div {
 }
 
 /* CHECK OUT BORDER-RADIUS ON MDN for more cool examples */
+
+/* BOX MODEL PADDING */
+/*    distance between the content and the border of an element */
+
+h1 {
+  background-color: #5390d9;
+  color: #7400b8;
+  width: 100px;
+  padding-left: 30px;
+  padding-top: 50px;
+}

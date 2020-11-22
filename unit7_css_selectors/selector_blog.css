@@ -172,3 +172,10 @@ p::selection {
 /* THE CASCADE */
 /* the order your styles are declared in and linked to matters! */
 
+li {
+  color: #1d3557;
+}
+
+li {
+  color: #e63946; /* this should be the one selected since it's the last one selected */
+}

@@ -82,18 +82,53 @@ h1 {
       padding: 5px 1px 0 2px;
 */
 
-button {
-  padding: 10px;
+button { /* all four sides */
+  padding: 5em;
 }
 
-.one {
-  padding: 5px 10px;
+.one { /* Vertical, Horizontal */
+  padding: 5rem 10px;
 }
 
-.two {
+.two { /* Top, Horizontal, Bottom */
   padding: 1px 2px 2px;
 }
 
-.three {
+.three { /* Top | Right | Bottom | Left */
   padding: 5px 1px 0 2px;
+}
+
+/* BOX MODEL MARGIN
+    spacing on the outside of borders between elements 
+*/
+/* 
+  Margin Shorthand Property
+
+    Apply to all four sides
+      margin: 10px;
+    
+    Vertical | Horizontal
+      margin: 5px 10px;
+    
+    Top | Horizontal | Bottom
+      margin: 1px 2px 2px;
+    
+    Top | Right | Bottom | Left
+      margin: 5px 1px 0 2px;
+*/
+
+.four { /* applies to all four sides */
+  margin: 2rem;
+}
+
+.five { /* vertical, horizontal */
+  margin: 5px 10px;
+}
+
+.six { /* top, horizontal, bottom */
+  margin: 1px 2px 2px;
+}
+
+.seven { /* top, right, bottom, left */
+  margin: 5px 1px 0 2px;
 }

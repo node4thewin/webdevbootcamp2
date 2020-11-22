@@ -3,6 +3,10 @@
 /* idea that everything in CSS is a box, and those boxes have properties */
 
 /* Width & Height */
+body {
+  margin: 0;
+}
+
 
 div {
   width: 200px;
@@ -33,6 +37,8 @@ div {
   border-width: 5px;
   box-sizing: border-box; /* this makes sure that the border is the width of the element that's selected above */
   border-radius: 25% 10%;
+  margin-left: 50px;
+  margin-bottom: 100px;
 }
 #two {
   background-color: #6930c3;
@@ -44,6 +50,8 @@ div {
   border-left-style: dashed;
   border-radius: 50%;
   padding-right: 50px;
+  margin: 200px;
+  margin-bottom: 50px;
 }
 #three {
   background-color: #5e60ce;
@@ -65,6 +73,7 @@ h1 {
   width: 100px;
   padding-left: 30px;
   padding-top: 50px;
+  margin: 0;
 }
 
 /* Padding Shorthand Property

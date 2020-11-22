@@ -66,3 +66,34 @@ h1 {
   padding-left: 30px;
   padding-top: 50px;
 }
+
+/* Padding Shorthand Property
+
+    Apply to all four sides
+      padding: 10px;
+
+    Vertical | Horizontal
+      padding: 5px 10px;
+    
+    Top | Horizontal | Bottom
+      padding: 1px 2px 2px;
+    
+    Top | Right | Bottom | Left
+      padding: 5px 1px 0 2px;
+*/
+
+button {
+  padding: 10px;
+}
+
+.one {
+  padding: 5px 10px;
+}
+
+.two {
+  padding: 1px 2px 2px;
+}
+
+.three {
+  padding: 5px 1px 0 2px;
+}

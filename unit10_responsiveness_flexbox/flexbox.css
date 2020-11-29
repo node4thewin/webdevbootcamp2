@@ -36,10 +36,15 @@ h1 {
   flex-direction: row; /* row-reverse flips from left>right to right>left
   /* flex-direction: column; top to bottom, and 'column-reverse' goes from bottom to top */
   /* justify-content: flex-start; content will start oriented from whatever the flex-direction is */
-  justify-content: center; /* content will start in the center, but oriented from whatever the flex-direction is */
+  justify-content: center; /* content will start in the center of main axis, but oriented from whatever the flex-direction is */
 }
 
 #container div {
   width: 200px;
   height: 200px;
+}
+
+#container2 {
+  display: flex;
+  justify-content: center;
 }

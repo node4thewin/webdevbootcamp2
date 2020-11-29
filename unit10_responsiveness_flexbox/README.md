@@ -2,13 +2,11 @@
 
 # Crucial!
 
-1. Width & Height
-2. Border
-3. Padding
-4. Margin
-5. Display Property - impacts properties above
-6. CSS Units - Percentages, EMs, & REMs
-
-# Nice to Have
-
-1. Border Radius
+1. FOCUS ON CONCEPTS, NOT MEMORIZING THE PROPERTIES!!!
+2. Media Queries
+3. Flex-basis, grow, and shrink
+4. Align-items
+5. Flex-wrap
+6. Align-content and align-self
+7. Justify-Content
+8. Flex Shorthand

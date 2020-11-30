@@ -29,20 +29,20 @@ h1 {
 #container {
   background-color: #003049;
   width: 90%;
-  height: 400px; /* the columns in #container div would grow if more px added */
+  height: 500px; /* the columns in #container div would grow if more px added */
   margin: 0 auto;
   border: 5px solid #003049;
   display: flex;
-  /* flex-direction: row; row-reverse flips from left>right to right>left */
+  flex-direction: row; /* row-reverse flips from left>right to right>left */
   /* FLEX-DIRECTION CONTROLS WHAT HAPPENS WITH JUSTIFY-CONTENT */
-  flex-direction: column; /* top to bottom, and 'column-reverse' goes from bottom to top */
+  /* flex-direction: column; top to bottom, and 'column-reverse' goes from bottom to top */
   /* justify-content: flex-start; content will start oriented from whatever the flex-direction is */
   justify-content: flex-start; /* content will start in the center of main axis, but oriented from whatever the flex-direction is 
   justify-content: space-between; evenly distributes space between elements across the container/main-axis
   justify-content: space-around; gives each element same amount of space outside it 
   justify-content: space-evenly; gives each element the same amount of space inside and outside
   */
-  flex-wrap: wrap; /* stops elements from shrinking and wraps them, can also wrap-reverse */
+  flex-wrap: wrap; /* stops elements from shrinking and wraps them, can also wrap-reverse, this will wrap upwards or the opposite direction */
 }
 
 #container div {

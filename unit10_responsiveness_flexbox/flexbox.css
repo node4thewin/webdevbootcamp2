@@ -37,20 +37,26 @@ h1 {
   /* FLEX-DIRECTION CONTROLS WHAT HAPPENS WITH JUSTIFY-CONTENT */
   /* flex-direction: column; top to bottom, and 'column-reverse' goes from bottom to top */
   /* justify-content: flex-start; content will start oriented from whatever the flex-direction is */
-  justify-content: flex-start; /* content will start in the center of main axis, but oriented from whatever the flex-direction is 
+  justify-content: center; /* content will start in the center of main axis, but oriented from whatever the flex-direction is 
   justify-content: space-between; evenly distributes space between elements across the container/main-axis
   justify-content: space-around; gives each element same amount of space outside it 
   justify-content: space-evenly; gives each element the same amount of space inside and outside
   */
-  flex-wrap: wrap; /* stops elements from shrinking and wraps them, can also wrap-reverse, this will wrap upwards or the opposite direction */
+  flex-wrap: wrap; /* MAIN AXIS only...stops elements from shrinking and wraps them, can also wrap-reverse, this will wrap upwards or the opposite direction */
+  align-items: baseline; /* CROSS AXIS only...distributes space or items along the cross-axis. not as simple as always saying vertical, because the cross-axis can be vertical or horizontal
+  remember baseline can line things up but they always go with the bottom of the letters*/
 }
 
 #container div {
   width: 200px;
   height: 200px;
+  text-align: center;
+  font-size: 4em;
+  font-weight: 800;
 }
 
 #container2 {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }

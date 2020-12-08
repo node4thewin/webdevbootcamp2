@@ -33,15 +33,8 @@ h1 {
   margin: 0 auto;
   border: 5px solid #003049;
   display: flex;
-  flex-direction: row; /* row-reverse flips from left>right to right>left */
-  /* FLEX-DIRECTION CONTROLS WHAT HAPPENS WITH JUSTIFY-CONTENT */
-  /* flex-direction: column; top to bottom, and 'column-reverse' goes from bottom to top */
-  /* justify-content: flex-start; content will start oriented from whatever the flex-direction is */
-  justify-content: center; /* content will start in the center of main axis, but oriented from whatever the flex-direction is 
-  justify-content: space-between; evenly distributes space between elements across the container/main-axis
-  justify-content: space-around; gives each element same amount of space outside it 
-  justify-content: space-evenly; gives each element the same amount of space inside and outside
-  */
+  flex-direction: row; /* FLEX-DIRECTION CONTROLS WHAT HAPPENS WITH JUSTIFY-CONTENT */
+  justify-content: center; /* content will start in the center of main axis, but oriented from whatever the flex-direction is */
   flex-wrap: wrap; /* MAIN AXIS only...stops elements from shrinking and wraps them, can also wrap-reverse, this will wrap upwards or the opposite direction */
   align-items: baseline; /* CROSS AXIS only...distributes space or items along the cross-axis. not as simple as always saying vertical, because the cross-axis can be vertical or horizontal
   remember baseline can line things up but they always go with the bottom of the letters*/

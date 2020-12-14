@@ -13,52 +13,83 @@
     <h1 class="display-1 text-center">bootstrap utilities <span class="badge bg-primary">NEW!</span></h1>
   </header>
   <div class="container">
-    <section>
-      <h1>text color through bootstrap</h1>
-      <h3>could be considered easier than css file</h3>
-      <p class="text-primary">.text-primary</p>
-      <p class="text-secondary">.text-secondary</p>
-      <p class="text-success">.text-success</p>
-      <p class="text-danger">.text-danger</p>
-      <p class="text-warning">.text-warning</p>
-      <p class="text-info">.text-info</p>
-      <p class="text-light bg-dark">.text-light</p>
-      <p class="text-dark">.text-dark</p>
-      <p class="text-body">.text-body</p>
-      <p class="text-muted">.text-muted</p>
-      <p class="text-white bg-dark">.text-white</p>
-      <p class="text-black-50">.text-black-50</p>
-      <p class="text-white-50 bg-dark">.text-text-white-50</p>
+    <section class="border border-dark border-2 rounded">
+      <div class="container">
+        <h1>text color through bootstrap</h1>
+        <h3>could be considered easier than css file</h3>
+        <p class="text-primary">.text-primary</p>
+        <p class="text-secondary">.text-secondary</p>
+        <p class="text-success">.text-success</p>
+        <p class="text-danger">.text-danger</p>
+        <p class="text-warning">.text-warning</p>
+        <p class="text-info">.text-info</p>
+        <p class="text-light bg-dark">.text-light</p>
+        <p class="text-dark">.text-dark</p>
+        <p class="text-body">.text-body</p>
+        <p class="text-muted">.text-muted</p>
+        <p class="text-white bg-dark">.text-white</p>
+        <p class="text-black-50">.text-black-50</p>
+        <p class="text-white-50 bg-dark">.text-text-white-50</p>
+      </div>
     </section>
     <br>
-    <section>
-      <h1>background color through bootstrap</h1>
-      <button class="btn-primary">updates <span class="badge badge-light">11+</span></button>
-      <h3>could be considered easier than css file</h3>
-      <div class="bg-primary text-white">.bg-primary</div>
-      <div class="bg-secondary text-white">.bg-secondary</div>
-      <div class="bg-success text-white">.bg-success</div>
-      <div class="bg-danger text-white">.bg-danger</div>
-      <div class="bg-warning text-dark">.bg-warning</div>
-      <div class="bg-info text-dark">.bg-info</div>
-      <div class="bg-light text-dark">.bg-light</div>
-      <div class="bg-dark text-white">.bg-dark</div>
-      <div class="bg-white text-dark">.bg-white</div>
-      <div class="bg-transparent text-dark">.bg-transparent</div>
+    <section class="border border-dark border-2 rounded">
+      <div class="container">
+        <h1>background color through bootstrap</h1>
+        <h3>could be considered easier than css file</h3>
+        <button type="button" class="mb-3 btn btn-primary">
+          button with notification badge <span class="badge bg-light text-dark">3</span>
+        </button>
+        <div class="bg-primary text-white">.bg-primary</div>
+        <div class="bg-secondary text-white">.bg-secondary</div>
+        <div class="bg-success text-white">.bg-success</div>
+        <div class="bg-danger text-white">.bg-danger</div>
+        <div class="bg-warning text-dark">.bg-warning</div>
+        <div class="bg-info text-dark">.bg-info</div>
+        <div class="bg-light text-dark">.bg-light</div>
+        <div class="bg-dark text-white">.bg-dark</div>
+        <div class="bg-white text-dark">.bg-white</div>
+        <div class="bg-transparent text-dark">.bg-transparent</div>
+      </div>
     </section>
     <br>
-    <section>
-      <h1>adding background gradient</h1>
-      <h3>same as above but class="bg-gradient" added</h3>
-      <div class="bg-primary bg-gradient text-white">.bg-primary</div>
-      <div class="bg-secondary bg-gradient text-white">.bg-secondary</div>
-      <div class="bg-success bg-gradient text-white">.bg-success</div>
-      <div class="bg-danger bg-gradient text-white">.bg-danger</div>
-      <div class="bg-warning bg-gradient text-dark">.bg-warning</div>
-      <div class="bg-info bg-gradient text-dark">.bg-info</div>
-      <div class="bg-light bg-gradient text-dark">.bg-light</div>
-      <div class="bg-dark bg-gradient text-white">.bg-dark</div>
-      <div class="bg-white bg-gradient text-dark">.bg-white</div>
+    <section class="border border-dark border-2 rounded">
+      <div class="container">
+        <h1>adding background gradient</h1>
+        <h3>same as above but class="bg-gradient" added</h3>
+        <button type="button" class="mb-3 rounded-pill btn btn-primary">
+          pill button with pill notification badge <span class="badge rounded-pill bg-light text-dark">9</span>
+        </button>
+        <br>
+        <div class="bg-primary bg-gradient text-white">.bg-primary</div>
+        <div class="bg-secondary bg-gradient text-white">.bg-secondary</div>
+        <div class="bg-success bg-gradient text-white">.bg-success</div>
+        <div class="bg-danger bg-gradient text-white">.bg-danger</div>
+        <div class="bg-warning bg-gradient text-dark">.bg-warning</div>
+        <div class="bg-info bg-gradient text-dark">.bg-info</div>
+        <div class="bg-light bg-gradient text-dark">.bg-light</div>
+        <div class="bg-dark bg-gradient text-white">.bg-dark</div>
+        <div class="bg-white bg-gradient text-dark">.bg-white</div>
+      </div>
+    </section>
+    <br>
+    <section class="border border-dark border-2 rounded">
+      <div class="container">  
+        <h1>button groups</h1>
+        <h3>basic example</h3>
+        <p>wrap a series of buttons with .btn in .btn-group</p>
+        <div class="mb-3 btn-group" role="group" aria-label="basic example">
+          <button type="button" class="btn btn-primary">left</button>
+          <button type="button" class="btn btn-primary">middle</button>
+          <button type="button" class="btn btn-primary">right</button>
+        </div>
+        <h3>second example</h3>       
+        <div class="mb-3 btn-group" role="group" aria-label="second example">
+          <button class="btn btn-warning">left</button>
+          <button class="btn btn-warning">middle</button>
+          <button class="btn btn-warning">right</button>
+        </div>
+      </div>
     </section>
   </div>
 </body>

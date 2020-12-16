@@ -8,15 +8,35 @@
   <title>grid systems - bootstrap</title>
 </head>
 <body>
-  <header class="container">
-    <h1 class="display-1 text-center">bootstrap grid system</h1>
-  </header>
   <section class="container">
+    <h1 class="display-3 text-center">the grid system</h1>
     <p>the <strong>grid system</strong> is split into 12 columns</p>
     <p>it helps us layout our content in a responsive manner</p>
     <p>for example, as you resize the browser window...the content should <strong>respond</strong></p>
+    <p>if you wanted two columns it would be 6 and 6, two thirds would be 8 and 4</p>
   </section>
- 
+  <section class="container">
+    <div class="row">
+      <div class="col-6 bg-success text-center">6 units</div>
+      <div class="col-6 bg-warning text-center">another 6 units</div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-8 bg-warning text-center">8 units</div>
+      <div class="col-4 bg-success text-center">4 units</div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-3 bg-success text-center">3 units</div>
+      <div class="col-6 bg-warning text-center">6 units</div>
+      <div class="col-3 bg-success text-center">3 units</div>
+    </div>
+    <br>
+  </section>
+  <section class="container">
+    <h1 class="display-6 text-center">adding form elements to grid system</h1>
+  </section>
+
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
